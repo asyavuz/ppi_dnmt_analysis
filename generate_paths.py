@@ -441,8 +441,6 @@ def calc_shortest_path(chunk):
 
         except nx.exception.NetworkXNoPath:
             all_paths.append(-1)
-            print(start, end)
-            sys.exit(-1)
 
     return all_paths
 
